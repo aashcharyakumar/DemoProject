@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyDemoProject';
+
+whattoshow:number=0;
+
+  btnfun(num:number){
+this.whattoshow=num;
+  }
+
 }
+
+
